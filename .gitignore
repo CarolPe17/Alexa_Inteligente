@@ -1,0 +1,12 @@
+node_modules/
+
+# credenciales — nunca subir
+config.js
+.env
+
+# logs y basura del sistema
+*.log
+.DS_Store
+
+# ASK CLI
+.ask/

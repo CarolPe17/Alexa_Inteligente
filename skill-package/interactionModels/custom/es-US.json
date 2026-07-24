@@ -1,0 +1,84 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "jarvis",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        { "name": "AMAZON.NavigateHomeIntent", "samples": [] },
+        {
+          "name": "AskIntent",
+          "slots": [
+            { "name": "query", "type": "AMAZON.SearchQuery" }
+          ],
+          "samples": [
+            "pregunta {query}",
+            "pregúntale {query}",
+            "pregúntame {query}",
+            "dime {query}",
+            "dime que {query}",
+            "dime qué {query}",
+            "explícame {query}",
+            "explica {query}",
+            "explícame qué {query}",
+            "cuéntame {query}",
+            "cuéntame sobre {query}",
+            "cuéntame de {query}",
+            "platícame de {query}",
+            "platícame sobre {query}",
+            "qué es {query}",
+            "qué son {query}",
+            "qué significa {query}",
+            "qué {query}",
+            "quién es {query}",
+            "quién fue {query}",
+            "quién {query}",
+            "cuál es {query}",
+            "cuál {query}",
+            "cómo {query}",
+            "cómo se {query}",
+            "cómo funciona {query}",
+            "por qué {query}",
+            "para qué {query}",
+            "cuándo {query}",
+            "dónde {query}",
+            "cuánto es {query}",
+            "cuánto {query}",
+            "cuántos {query}",
+            "cuántas {query}",
+            "dame {query}",
+            "quiero saber {query}",
+            "quiero saber sobre {query}",
+            "necesito saber {query}",
+            "ayúdame con {query}",
+            "ayúdame a {query}",
+            "qué opinas de {query}",
+            "qué piensas de {query}"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "delegationStrategy": "SKILL_RESPONSE",
+      "intents": [
+        {
+          "name": "AskIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

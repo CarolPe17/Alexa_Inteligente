@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "es-MX": {
+          "name": "Jarvis",
+          "summary": "Asistente de voz conversacional para tu Echo.",
+          "description": "Jarvis convierte tu Echo en un asistente con el que puedes platicar de forma natural: le preguntas lo que sea y te sigue la conversación.",
+          "smallIconUri": "",
+          "largeIconUri": "",
+          "examplePhrases": [
+            "Alexa, abre Jarvis",
+            "Alexa, pregúntale a Jarvis qué es un agujero negro",
+            "Alexa, dile a Jarvis que me cuente un dato curioso"
+          ],
+          "keywords": ["asistente", "conversacion", "jarvis"]
+        },
+        "es-US": {
+          "name": "Jarvis",
+          "summary": "Asistente de voz conversacional para tu Echo.",
+          "description": "Jarvis convierte tu Echo en un asistente con el que puedes platicar de forma natural: le preguntas lo que sea y te sigue la conversación.",
+          "smallIconUri": "",
+          "largeIconUri": "",
+          "examplePhrases": [
+            "Alexa, abre Jarvis",
+            "Alexa, pregúntale a Jarvis qué es un agujero negro",
+            "Alexa, dile a Jarvis que me cuente un dato curioso"
+          ],
+          "keywords": ["asistente", "conversacion", "jarvis"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": ["MX"],
+      "distributionMode": "PRIVATE",
+      "category": "PRODUCTIVITY",
+      "testingInstructions": "Uso personal. El endpoint corre como servidor propio; requiere credenciales de Azure OpenAI en el servidor."
+    },
+    "apis": {
+      "custom": {}
+    }
+  }
+}

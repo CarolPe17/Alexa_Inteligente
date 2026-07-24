@@ -1,0 +1,19 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "Skill de Alexa que convierte el Echo en un asistente conversacional con Azure OpenAI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-express-adapter": "^2.14.0",
+    "express": "^5.2.1",
+    "openai": "^4.104.0"
+  }
+}
